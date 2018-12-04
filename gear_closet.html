@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gear Closet</title>
+    <link rel='stylesheet' href='gear.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='gear_closet.js'></script>
+  </head>
+  <body>
+  	<h2>Here's everything you own</h2>
+
+  	<table id='myTable'>
+      <tbody>
+    		<tr>
+    			<th>name</th>
+    			<th>weight</th>
+    			<th>purchased</th>
+    			<th>price</th>
+    			<th>comments</th>
+    		</tr>
+    		<tr>
+    			<td>A</td>
+    			<td>23</td>
+    			<td>no</td>
+    			<td>12</td>
+          <td></td>
+    		</tr>
+    		<tr>
+    			<td>B</td>
+    			<td>4</td>
+    			<td>yes</td>
+    			<td>1</td>
+          <td></td>
+    		</tr>
+    		<tr>
+    			<td>C</td>
+    			<td>34</td>
+    			<td>no</td>
+    			<td>7</td>
+          <td></td>
+    		</tr>
+    		<tr>
+    			<td>D</td>
+    			<td>12</td>
+    			<td>yes</td>
+    			<td>12</td>
+          <td></td>
+    		</tr>
+       </tbody> 
+  	</table><br>
+
+    <span>add new item</span><br>
+  	<form  class='submission' action=''>
+  		<input type='text' name='name' value='name'>
+ 		<input type='number' name='weight' value='0'>
+    Purchased: 
+ 		<input type='radio' name='purchased' value='yes' checked='checked'>yes
+    <input type='radio' name='purchased' value='no'>no
+  	<input type='number' name='price' value='0'>
+    <input type='text' name='comments' value='comments'>
+		<input type='submit' name='submit' value='Add'>
+	</form>
+   		
+  	
+
+  </body>
+</html>

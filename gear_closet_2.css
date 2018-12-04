@@ -1,0 +1,19 @@
+#list_head {
+	font-weight: bold;
+}
+
+.gear_item > span, #list_head > span, .new_item > form >  input {
+	display: inline-block;
+	width: 125px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.gear_item span, .new_item input{
+	margin-top: -1px;
+	margin-left: -1px;
+}
+
+
+

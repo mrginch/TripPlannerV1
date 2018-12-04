@@ -1,0 +1,3 @@
+gear next steps (12/4):
+stop adding to top - add to bottom
+reset text fields

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>New List</title>
+    <link rel='stylesheet' href='gear.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='new_list.js'></script>
+  </head>
+  <body>
+    <h3>Baseweight</h3>
+    <table id='baseweightTable'>
+      <tbody>
+        <tr>
+          <th>name</th>
+          <th>weight</th>
+          <th>purchased</th>
+          <th>price</th>
+          <th>comments</th>
+        </tr>
+        <tr>
+          <td><input type='text' name='name' value='new item name'></td>
+          <td><input type='number' name='weight' value='0'></td>
+          <td>yes<input type='radio' class='yes' name='purchasedBaseWeight' value='yes' checked='checked'>no<input type='radio' name='purchasedBaseWeight' value='no'></td>
+          <td><input type='number' name='price' value='0'></td>
+          <td><input type='text' name='comments' value=''></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <h3>Worn</h3>
+    <table id='wornTable'>
+      <tbody>
+        <tr>
+          <th>name</th>
+          <th>weight</th>
+          <th>purchased</th>
+          <th>price</th>
+          <th>comments</th>
+        </tr>
+        <tr>
+          <td><input type='text' name='name' value='new item name'></td>
+          <td><input type='number' name='weight' value='0'></td>
+          <td>yes<input type='radio' class='yes' name='purchasedWorn' value='yes' checked='checked'>no<input type='radio' name='purchasedWorn' value='no'></td>
+          <td><input type='number' name='price' value='0'></td>
+          <td><input type='text' name='comments' value=''></td>
+        </tr>
+      </tbody> 
+    </table>
+
+    <br>
+    <h3>Consumables</h3>
+    <table id='consumablesTable'>
+      <tbody>
+        <tr>
+          <th>name</th>
+          <th>weight</th>
+          <th>purchased</th>
+          <th>price</th>
+          <th>comments</th>
+        </tr>
+        <tr>
+          <td><input type='text' name='name' value='new item name'></td>
+          <td><input type='number' name='weight' value='0'></td>
+          <td>yes<input type='radio' class='yes' name='purchasedConsumables' value='yes' checked='checked'>no<input type='radio' name='purchasedConsumables' value='no'></td>
+          <td><input type='number' name='price' value='0'></td>
+          <td><input type='text' name='comments' value=''></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </body>
+</html>
