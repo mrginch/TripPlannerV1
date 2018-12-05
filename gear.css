@@ -6,10 +6,18 @@ table, th, td{
 
 div.tableContainer {
 	clear: both;
-	border: 1px solid #963;
+	border: 1px solid black;
 	max-height: 285px;
 	overflow: auto;
-	width: 756px;
 	position: relative; 
 	bottom: 0;
+}
+
+#bwDiv, #wDiv, #cDiv{
+	width: 756px;
+	margin: 0 auto;
+}
+
+h3{
+	text-align: center;
 }
