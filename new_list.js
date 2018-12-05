@@ -13,12 +13,14 @@ $(document).ready(function(){
 	       v[3] = {'price': $(i[3]).children('input')[0].value};
 	       v[4] = {'comments': $(i[4]).children('input')[0].value};
 
-	       $(tableStr).append('<tr><td>' + v[0].name 
-												+ '</td><td>' + v[1].weight 
-												+ '</td><td>' + v[2].purchased 
-												+ '</td><td>' + v[3].price 
-												+ '</td><td>' + v[4].comments 
-																	+ '</td></tr>');
+
+	       
+	       $('<tr><td>' + v[0].name 
+				+ '</td><td>' + v[1].weight 
+				+ '</td><td>' + v[2].purchased 
+				+ '</td><td>' + v[3].price 
+				+ '</td><td>' + v[4].comments 
+				+ '</td></tr>').insertBefore(tableStr +'InputRow');
 	
 	 }
 
