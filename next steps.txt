@@ -1,3 +1,12 @@
 gear next steps (12/4):
-stop adding to top - add to bottom
+stop adding to top - add to bottom (check)
 reset text fields
+
+12/5
+reset text fields (check)
+make each table in a scrollable box when they get too long
+	how long is too long?
+	--scrolls but does not stay at bottom
+	--focus snaps as soon as you start typing so whatever(for now)
+make old entries editable
+add from gear closet

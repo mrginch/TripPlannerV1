@@ -4,3 +4,12 @@ table, th, td{
 	empty-cells: show;
 }
 
+div.tableContainer {
+	clear: both;
+	border: 1px solid #963;
+	max-height: 285px;
+	overflow: auto;
+	width: 756px;
+	position: relative; 
+	bottom: 0;
+}
